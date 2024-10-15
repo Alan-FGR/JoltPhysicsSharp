@@ -1075,7 +1075,7 @@ internal static unsafe partial class JoltApi
     public static partial nint JPH_BodyInterface_CreateSoftBody(nint handle, nint settings);
 
     [LibraryImport(LibName)]
-    public static partial uint JPH_BodyInterface_CreateAndAddBody(nint handle, nint bodyID, Activation activation);
+    public static partial uint JPH_BodyInterface_CreateAndAddBody(nint handle, nint settings, Activation activation);
 
     [LibraryImport(LibName)]
     public static partial nint JPH_BodyInterface_CreateBodyWithID(nint handle, uint bodyID, nint settings);
